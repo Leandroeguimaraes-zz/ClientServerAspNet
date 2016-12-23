@@ -95,6 +95,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IllusionistClient.ViewModel\IllusionistClient.ViewModel.csproj">
+      <Project>{7B9DFEBD-741B-42D3-AFB7-BBE37B96418B}</Project>
+      <Name>IllusionistClient.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

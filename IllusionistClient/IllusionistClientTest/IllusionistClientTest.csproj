@@ -35,6 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -52,6 +53,16 @@
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IllusionistClient.ViewModel\IllusionistClient.ViewModel.csproj">
+      <Project>{7B9DFEBD-741B-42D3-AFB7-BBE37B96418B}</Project>
+      <Name>IllusionistClient.ViewModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IllusionistClient\IllusionistClient.csproj">
+      <Project>{72C6161C-89A7-46F5-9C40-42C00A27DAD3}</Project>
+      <Name>IllusionistClient</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
