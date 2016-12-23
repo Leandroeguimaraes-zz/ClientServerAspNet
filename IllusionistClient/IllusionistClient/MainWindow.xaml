@@ -15,8 +15,6 @@
         <Label x:Name="label" Content="Agency:" HorizontalAlignment="Left" Margin="63,80,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label2" Content="Password :" HorizontalAlignment="Left" Margin="63,158,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label3" Content="Value :" HorizontalAlignment="Left" Margin="63,195,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button" Content="Send" HorizontalAlignment="Left" Margin="181,248,0,0" VerticalAlignment="Top" Width="75"/>
-
-
+        <Button x:Name="uxBtnSend" Command="{Binding SendTransactionCommand}" Content="Send" HorizontalAlignment="Left" Margin="181,248,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>

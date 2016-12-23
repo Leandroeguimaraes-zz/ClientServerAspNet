@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WhereTheMagicHappns.Models
 {
-    public class Usuario
+    public class Customer
     {
         public string Name { get; set; }
 

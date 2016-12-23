@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WhereTheMagicHappns.Models
 {
-    public class Conta
+    public class Account
     {
         public string Agencia { get; set; }
         public string NumConta { get; set; }

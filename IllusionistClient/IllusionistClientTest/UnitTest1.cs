@@ -7,13 +7,11 @@ using IllusionistClient;
 namespace IllusionistClientTest
 {
     [TestClass]
-    public class UnitTest1
+    public class TransactionViewModelTest
     {
         [TestMethod]
-        public void TestMethod1()
-        {
-            MainWindow main = new MainWindow();
-            
+        public void Tran()
+        {                                   
             TransactionViewModel transaction = new TransactionViewModel();
             MessageBox.Show(transaction.Agency);
 
